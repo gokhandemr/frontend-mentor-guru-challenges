@@ -4,9 +4,9 @@
 
 Bu uygulama, kullanıcıların görevlerini ve alt görevlerini düzenlemelerine, takip etmelerine ve tamamlamalarına yardımcı olur. Koyu ve açık tema seçenekleri arasında geçiş yapılabilir ve responsive tasarımı sayesinde tüm cihazlarda kullanabilir.
 
-Uygulama Sayfası: #
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/kanban-task-management-web-app-react-vite-jaG2D74bcg
 
-Demo: #
+Demo: https://frontend-mentor-guru-challenges.vercel.app
 
 ---
 
