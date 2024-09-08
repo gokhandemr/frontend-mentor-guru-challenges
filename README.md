@@ -1,4 +1,4 @@
-# Frontend Mentor Sitesine Ait Advanced Kategorisindeki Uygulamalar
+# Frontend Mentor Sitesine Ait Guru Kategorisindeki Uygulamalar
 
 Merhabalar, bu repoda ["Frontend Mentor"](https://www.frontendmentor.io/challenges?difficulty=5) sitesine ait guru kategorisindeki yaptığım uygulamalar yer alıyor. Uygulamaları geliştirirken kullandığım teknolojiler, uygulama özellikleri ve kurulum gibi diğer detaylar uygulamaya ait klasör içerisinde yer almaktadır.
 
