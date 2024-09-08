@@ -1,0 +1,32 @@
+.todo {
+    width: 280px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px 16px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.todo:hover {
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 3px 5px;
+    cursor: pointer;
+}
+
+.todo:hover>h4 {
+    color: blueviolet;
+}
+
+.todo p {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey
+}
+
+.darkTheme {
+    background: #2B2C37;
+    color: #fff;
+}

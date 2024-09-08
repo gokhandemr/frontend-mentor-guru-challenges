@@ -1,0 +1,24 @@
+.newColumnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.newColumnWrapper input {
+    width: calc(100% - 36px);
+    margin: 0;
+}
+
+.newColumnWrapper button {
+    background: none;
+    border: none;
+}
+
+.newColumnWrapper button img {
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    background: #848fa4;
+    border-radius: 2px;
+}

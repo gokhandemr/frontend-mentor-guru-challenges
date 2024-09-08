@@ -1,0 +1,36 @@
+.newTaskButton {
+    width: 164px;
+    height: 48px;
+    border-radius: 20px;
+    text-align: center;
+    background: #635FC7;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.mobileAddTaskIcon {
+    display: none;
+}
+
+@media only screen and (max-width: 1023px) {
+    .newTaskButton {
+        width: 48px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: .7;
+        margin-right: 12px;
+    }
+
+    .mobileAddTaskIcon {
+        display: block;
+    }
+
+    .newTaskButton span {
+        display: none;
+    }
+}

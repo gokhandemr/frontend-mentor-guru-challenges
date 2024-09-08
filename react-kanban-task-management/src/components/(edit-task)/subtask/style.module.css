@@ -1,0 +1,39 @@
+.readOnlyWrapper,
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.readOnlyWrapper {
+    margin-bottom: 8px;
+}
+
+.readOnlyWrapper input {
+    width: calc(100% - 36px);
+}
+
+.readOnlyWrapper button {
+    background: none;
+    border: none;
+}
+
+.wrapper {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.wrapper button {
+    position: absolute;
+    right: 8px;
+    border: none;
+    background: none;
+}
+
+.wrapper button img {
+    padding: 3px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: darkgray;
+}

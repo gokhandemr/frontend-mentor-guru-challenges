@@ -1,0 +1,28 @@
+.addColumnButton {
+    width: 280px;
+    height: 814px;
+    background: #b6c2c721;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: #77777780;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 39px;
+    transition: all .2s;
+}
+
+.addColumnButton:hover {
+    background: #b6c2c762;
+}
+
+.darkTheme {
+    color: #635FC7;
+    background: #2b2c374f;
+}
+.darkTheme:hover {
+    background: #2b2c3763;
+
+}

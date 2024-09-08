@@ -1,0 +1,14 @@
+.selectStatus {
+    padding: 8px;
+    width: 100%;
+}
+
+.darkTheme {
+    background: transparent;
+    border-color: #777;
+    color: #fff;
+}
+
+.darkTheme option {
+    background-color: #2B2C37;
+}

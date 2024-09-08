@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  resize: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F4F7FD;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+}
+
+main ul {
+  margin-right: 24px;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  transition: all .3s;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+main {
+  width: 100%;
+  min-width: max-content;
+  transition: all .3s;
+  margin-left: 300px;
+  margin-top: 96px;
+}
+
+main.no-sidebar {
+  margin-left: 0;
+  transition: all .3s;
+}
+
+h3 {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+h6 {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  color: #fff;
+}
+
+body.dark-theme {
+  background: #20212C;
+}
+
+body.dark-theme h1,
+body.dark-theme h5 {
+  color: #fff;
+}
+
+body.dark-theme h3,
+body.dark-theme h6 {
+  color: #b3b3b3;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  main {
+    margin-left: 260px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main {
+    margin-left: 0;
+    margin-top: 64px;
+  }
+}

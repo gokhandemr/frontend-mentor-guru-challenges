@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.wrapper input {
+    margin-right: 12px;
+}
+
+.wrapper button,
+.deleteButton {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper button img,
+.deleteButton img {
+    background-color: #ddd;
+    padding: 8px;
+    width: 24px;
+    border-radius: 4px;
+}
+
+.darkTheme button img,
+.darkTheme .deleteButton img {
+    background: transparent;
+    padding: 5px;
+}

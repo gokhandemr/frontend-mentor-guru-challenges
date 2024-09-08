@@ -1,0 +1,16 @@
+.columnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.columnWrapper input {
+    width: calc(100% - 36px);
+    margin: 0;
+}
+
+.columnWrapper button {
+    background: none;
+    border: none;
+}

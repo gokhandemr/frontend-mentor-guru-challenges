@@ -1,0 +1,42 @@
+.subtask {
+    width: 100%;
+    padding: 12px;
+    background: #F4F7FD;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subtask.taskCompleted {
+    color: #686868;
+    text-decoration: line-through;
+}
+
+.subtask .checkbox {
+    width: 24px;
+    height: 24px;
+    box-shadow: inset 0 0 0 1px #686868;
+    margin-right: 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkTheme {
+    background: #20212C;
+    color: #fff;
+}
+
+.subtask.taskCompleted .checkbox img {
+    width: 100%;
+    height: 100%;
+    background: #635FC7;
+    padding: 7px;
+    border-radius: 4px;
+}
