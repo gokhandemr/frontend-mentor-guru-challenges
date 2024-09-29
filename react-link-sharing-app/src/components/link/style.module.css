@@ -1,0 +1,66 @@
+.linkContainer {
+    width: 100%;
+    height: 228px;
+    padding: 20px;
+    background: var(--light-grey);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkTop {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.linkTop>:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.linkTop img {
+    margin-right: 8px;
+}
+
+.removeLinkButton {
+    background: none;
+    border: none;
+}
+
+.linkContainer label {
+    margin-bottom: 8px;
+}
+
+.linkContainer input,
+.linkContainer select {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--borders);
+}
+
+.linkContainer select option {
+    border-radius: 20px;
+}
+
+.linkCount {
+    font-weight: bold;
+    color: var(--dark-grey);
+}
+
+.linkContainer input:focus,
+.linkContainer select:focus {
+    border-color: var(--purple);
+    box-shadow: 0 0 12px -6px var(--purple);
+}
+
+.error {
+    border-color: var(--red)!important;
+}

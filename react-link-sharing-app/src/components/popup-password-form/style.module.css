@@ -1,0 +1,59 @@
+.passwordContainer {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    background: var(--white);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.passwordContainer h2 {
+    width: 100%;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.passwordContainer label {
+    margin-bottom: 8px;
+}
+
+.passwordContainer input {
+    background: var(--light-grey);
+    border: 1px solid var(--borders);
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+.passwordContainer input:focus {
+    border: 1px solid var(--purple);
+}
+
+.passwordContainer button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.passwordContainer>:nth-child(4)>:first-child {
+    background: var(--purple);
+    color: var(--white);
+}
+
+.passwordContainer>:nth-child(4)>:last-child {
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 650px) {
+    .passwordContainer {
+        width: 90%;
+    }
+}

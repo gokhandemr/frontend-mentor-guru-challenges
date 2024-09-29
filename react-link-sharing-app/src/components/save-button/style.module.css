@@ -1,0 +1,40 @@
+.saveButtonContainer {
+    width: calc(100% - (549px + 24px));
+    height: 94px;
+    position: sticky;
+    float: right;
+    bottom: 0;
+    padding: 24px 40px;
+    background: var(--white);
+    border-top: 1px solid var(--borders);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    width: 91px;
+    height: 46px;
+    transition: all .3s;
+}
+
+.button:hover {
+    background: var(--purple-hover);
+}
+
+@media screen and (max-width: 1023px) {
+    .saveButtonContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .button {
+        width: 100%;
+    }
+
+}

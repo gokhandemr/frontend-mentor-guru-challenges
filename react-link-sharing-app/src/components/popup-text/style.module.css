@@ -1,0 +1,28 @@
+.popupTextContainer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 40px;
+    width: 397px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: var(--dark-grey);
+    color: var(--white);
+    transition: all .3s;
+    z-index: 100;
+    border-radius: 12px;
+}
+
+.popupTextContainer img {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .popupTextContainer {
+        width: 90%;
+    }
+}

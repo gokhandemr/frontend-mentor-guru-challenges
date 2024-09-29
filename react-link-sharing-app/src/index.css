@@ -1,0 +1,97 @@
+:root {
+  --purple: #633CFF;
+  --purple-hover: #BEADFF;
+  --white: #FFF;
+  --light-grey: #FAFAFA;
+  --dark-grey: #333;
+  --red: #FF3939;
+  --borders: #D9D9D9;
+}
+
+@font-face {
+  font-family: 'Instrument_Sans';
+  src: url('./assets/fonts/InstrumentSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAFAFA;
+  font-size: 16px;
+  font-family: 'Instrument_Sans', sans-serif;
+  font-weight: normal;
+}
+
+#root {
+  width: 100%;
+  max-width: 1440px;
+  padding: 24px;
+  margin: auto;
+  position: relative;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-page-wrapper,
+.create-page-wrapper {
+  width: 476px;
+  min-height: calc(100vh - 48px);
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.login-page-wrapper>:nth-child(2),
+.create-page-wrapper>:nth-child(2) {
+  width: 476px;
+  padding: 40px;
+  background: var(--white);
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 150%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  #root {
+    padding: 16px;
+  }
+
+  .login-page-wrapper>:nth-child(2),
+  .create-page-wrapper>:nth-child(2),
+  .login-page-wrapper,
+  .create-page-wrapper {
+    width: 100%;
+  }
+
+}

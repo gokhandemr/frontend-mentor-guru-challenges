@@ -1,0 +1,74 @@
+.profilePanelContaier {
+    width: calc(100% - 560px);
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.imageContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--light-grey);
+    margin-bottom: 24px;
+}
+
+.profilePanelContaier input {
+    width: 432px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--borders);
+}
+
+
+.detailsContainer {
+    width: 100%;
+    background: var(--light-grey);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.detailsContainer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1023px) {
+    .profilePanelContaier {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .profilePanelContaier {
+        padding: 24px;
+    }
+
+    .detailsContainer>div,
+    .imageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 16px;
+    }
+
+    .detailsContainer>div label,
+    .imageContainer label {
+        margin-bottom: 8px;
+    }
+
+    .detailsContainer input,
+    .imageContainer input {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,108 @@
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar button img {
+    margin-right: 8px;
+}
+
+.navBar button {
+    height: 46px;
+    padding: 0 24px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    background: none;
+}
+
+.navBar button:hover {
+    color: var(--purple);
+}
+
+.navBar .active {
+    color: #633CFF;
+    background: #EFEBFF;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.previewButton {
+    width: 114px;
+    height: 46px;
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.signOutButton {
+    background: none;
+    border: none;
+    color: var(--dark-grey);
+}
+
+.logoContainer>:nth-child(2),
+.previewButton>img {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .navBar button {
+        padding: 0 12px;
+        margin-right: 0;
+    }
+
+    .previewButton {
+        width: unset;
+        padding: 0 12px;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .logoContainer>:nth-child(1),
+    .navBar span {
+        display: none;
+    }
+
+    .logoContainer>:nth-child(2) {
+        display: flex;
+    }
+
+    .navBar button {
+        justify-content: center;
+        padding: 0 24px;
+    }
+
+    .navBar button img {
+        margin-right: 0;
+    }
+
+    .previewButton {
+        margin-right: 8px;
+        font-size: 0;
+    }
+
+    .previewButton>img {
+        display: block;
+    }
+
+    .signOutButton {
+        width: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+}

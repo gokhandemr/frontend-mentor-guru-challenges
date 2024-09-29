@@ -14,6 +14,16 @@ Demo: https://frontend-mentor-guru-challenges.vercel.app
 
 ---
 
+## Uygulama 2: React + Vite ile Hazırlanan Link Sharing App
+
+Bu uygulama, kullanıcıların sosyal medya bağlantılarını tek bir ortamda listeleyebilecekleri tamamen işlevsel link paylaşım uygulamasıdır. Kullanıcılar bağlantılarını kolayca yönetebilir ve tüm cihazlarda kullanabilir.
+
+Uygulama Sayfası: #
+
+Demo: #
+
+---
+
 ## İletişim
 
 İletişime geçmek için _gkhandemir96@gmail.com_ mail adresini kullanabilirsiniz.

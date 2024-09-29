@@ -1,0 +1,13 @@
+.customTextTitle {
+    margin-bottom: 8px;
+}
+
+.customTextDesc {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    .customTextTitle {
+        font-size: 24px;
+    }
+}
