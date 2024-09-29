@@ -4,9 +4,9 @@
 
 Bu uygulama, kullanıcıların sosyal medya bağlantılarını tek bir ortamda listeleyebilecekleri tamamen işlevsel link paylaşım uygulamasıdır. Kullanıcılar bağlantılarını kolayca yönetebilir ve tüm cihazlarda kullanabilir.
 
-Uygulama Sayfası: #
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/link-sharing-app-EAwmvYJitO
 
-Demo: #
+Demo: https://link-sharing-app-khaki.vercel.app/
 
 ---
 
